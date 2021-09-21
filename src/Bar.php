@@ -111,7 +111,7 @@ class Bar
 
     public function requireParamAfterOptional(): int
     {
-        $sum = fn(int $x, int $y = 0, int $z): int => $x + $y + $z;
+        $sum = fn (int $x, int $y = 0, int $z): int => $x + $y + $z;
 
         return $sum(2, 4, 6);
     }

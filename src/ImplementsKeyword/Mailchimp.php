@@ -1,4 +1,5 @@
 <?php
+
 namespace App\ImplementsKeyword;
 
 class Mailchimp implements Email

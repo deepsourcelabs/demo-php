@@ -1,5 +1,6 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 
 namespace App\Nullsafe;
 
@@ -7,7 +8,7 @@ class NullsafeReferenceReturn
 {
     public function run(): void
     {
-        $foo = new \stdClass;
+        $foo = new \stdClass();
         $func = function &() use ($foo) {
             if (rand(0, 1)) {
                 return $foo;

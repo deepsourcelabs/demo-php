@@ -1,5 +1,6 @@
 <?php
-declare(strict_types = 1);
+
+declare(strict_types=1);
 
 namespace App\Nullsafe;
 
@@ -10,6 +11,6 @@ class NullsafeInArrow
         $func = function (\stdClass $foo): void {
             fn &() => $foo?->bar;
         };
-        var_dump($func(new \stdClass));
+        var_dump($func(new \stdClass()));
     }
 }

@@ -6,5 +6,5 @@ use App\InterfaceExtends\AdminContract;
 
 class Admin implements AdminContract
 {
-	//
+    //
 }

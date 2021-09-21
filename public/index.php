@@ -1,4 +1,6 @@
-<?php // lint >= 8.0
+<?php
+
+// lint >= 8.0
 
 require __DIR__ . '/../vendor/autoload.php';
 
@@ -105,5 +107,5 @@ require __DIR__ . '/../vendor/autoload.php';
 // $admin = new App\InterfaceExtends\Admin;
 // var_dump($admin);
 
-$abstractUndefined = new App\AbstractUndefinedMethod\Database;
+$abstractUndefined = new App\AbstractUndefinedMethod\Database();
 $abstractUndefined->backup();

@@ -1,4 +1,5 @@
 <?php
+
 namespace App\ImplementsKeyword;
 
 use App\ImplementsKeyword\MessageTrait;

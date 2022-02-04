@@ -2,7 +2,9 @@ version = 1
 
 exclude_patterns = [
   "vendor/**",
-  "public/**"
+  "node_modules/**"
+   "uploads/**"
+   "blog/**"
 ]
 
 [[analyzers]]

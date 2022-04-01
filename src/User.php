@@ -13,7 +13,7 @@ class User
         return md5($password);
     }
 
-    public function setUser(array $data): void
+    public function setUser(string|array|string $data): void
     {
         setcookie('user_name', $data['name'], [
             'expires' => time() + 3600,

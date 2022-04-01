@@ -20,4 +20,13 @@ class PreferenceController
 
         return compact('title', 'slug', 'description');
     }
+
+    public function formatSettings(array $settings): array
+    {
+        for ($i = 0; $i < count($settings); $i++) {
+            $settings[$i] = trim($settings[$i]);
+        }
+
+        return $settings;
+    }
 }

@@ -13,6 +13,6 @@ class StaticMethodCallCheck
 
     public function run(): void
     {
-        echo 'Hello, ' . Logger::write('there');
+        echo 'Hello, ' . (string) Logger::write('there');
     }
 }

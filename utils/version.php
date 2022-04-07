@@ -6,6 +6,8 @@ namespace Utils\GroupUse;
 
 define('Utils\GroupUse\PHP_74', 70400);
 
+define('ACTIVE', 1, true);
+
 function php_80(): int
 {
     return 80000;
